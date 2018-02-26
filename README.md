@@ -5,6 +5,7 @@
 Repositório com códigos da disciplina de Econometria Bayesiana do PPGECO UFSC em 2018-1.
 
 Professor: Guilherme Valle Moura.
+
 Monitora: Aishameriane Schmidt.
 
 ## Descrição dos diretórios
@@ -13,7 +14,6 @@ Monitora: Aishameriane Schmidt.
 
 ## Links úteis
 
-* Notas de aula (em eterna construção): https://www.overleaf.com/read/rwbzmdxskfww 
 * Site do livro "Monte Carlo Methods" de Casella e Robert: https://www.ceremade.dauphine.fr/~xian/books.html#MCSM2
 * Site para visualizar arquivos html que estão no github: https://htmlpreview.github.io/
 * Página do prof Gary Koop: https://sites.google.com/site/garykoop/home/computer-code-2
