@@ -1,5 +1,12 @@
 # Revisão de Probabilidade e Estatística
 
+## Avisos
+
+26/02
+* Acrescentei na primeira parte das notas de aula (na parte de independência) um novo exercício sobre a independência do vazio (ex 16).
+* Adicionei a definição de independência condicional (acima do exercício 16).
+* Acrescentei as notas de aula até a segunda aula.
+
 ## Informações gerais
 
 Esta revisão tem como objetivo auxiliar os alunos das disciplinas de Econometria I e Econometria Bayesiana do PPGECO/UFSC. Serão abordados principais tópicos de probabilidade que são pré-requisitos das disciplinas. As aulas serão expositivas e será disponibilizado o material de apoio por e-mail (slides/listas/notas de aula) para os participantes.
