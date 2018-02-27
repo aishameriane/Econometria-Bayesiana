@@ -1,5 +1,8 @@
 # Revisão de Probabilidade e Estatística
 
+<img src="https://imgs.xkcd.com/comics/correlation.png" width="400" align = "right">
+
+
 ## Avisos
 
 26/02
@@ -45,3 +48,5 @@ Os encontros ocorrerão na sala 203 do prédio da pós graduação nos dias 26/0
         1.3.3 Estimadores pontuais: caracterização e propriedades.
         1.3.4 Estimação por intervalo de confiança.
         1.3.5 (Caso sobre tempo) Uma breve introdução à inferência bayesiana.
+
+_Tirinha do [xkcd](https://xkcd.com/552/)_.
