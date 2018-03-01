@@ -7,6 +7,7 @@
 01/03
 * Corrigi alguns erros de digitação nas notas de aula até o segundo encontro
 * Adicionei o conteúdo até a aula 3 (está faltando a parte da normal multivariada e multinomial)
+* Adicionei nos extras uma apostila da disciplina de Probabilidade da UFSCAR/ICMC USP
 
 26/02
 * Acrescentei na primeira parte das notas de aula (na parte de independência) um novo exercício sobre a independência do vazio (ex 16).
