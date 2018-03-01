@@ -1,6 +1,6 @@
 # Revisão de Probabilidade e Estatística
 
-<img src="https://imgs.xkcd.com/comics/correlation.png" width="400" align = "right">
+<img src="http://www.phdcomics.com/comics/archive/phd032515s.gif" width="500" align = "center">
 
 
 ## Avisos
@@ -8,6 +8,7 @@
 * Corrigi alguns erros de digitação nas notas de aula até o segundo encontro
 * Adicionei o conteúdo até a aula 3 (está faltando a parte da normal multivariada e multinomial)
 * Adicionei nos extras uma apostila da disciplina de Probabilidade da UFSCAR/ICMC USP
+* Adicionei os códigos da aula 3 na pasta de "extras"
 
 26/02
 * Acrescentei na primeira parte das notas de aula (na parte de independência) um novo exercício sobre a independência do vazio (ex 16).
@@ -53,4 +54,4 @@ Os encontros ocorrerão na sala 203 do prédio da pós graduação nos dias 26/0
         1.3.4 Estimação por intervalo de confiança.
         1.3.5 (Caso sobre tempo) Uma breve introdução à inferência bayesiana.
 
-_Tirinha do [xkcd](https://xkcd.com/552/)_.
+_Tirinha do [xkcd](http://phdcomics.com/comics.php?f=1790)_.
