@@ -1,6 +1,6 @@
 # Revisão de Probabilidade e Estatística
 
-<img src="http://www.phdcomics.com/comics/archive/phd032515s.gif" width="500" align = "center">
+<img src="https://imgs.xkcd.com/comics/correlation.png" width="500" align = "right">
 
 
 ## Avisos
