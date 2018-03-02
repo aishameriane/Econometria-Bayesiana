@@ -1,6 +1,6 @@
 Materiais complementares.
 
-<img src="http://www.phdcomics.com/comics/archive/phd032515s.gif" width="500" align = "right">
+<img src="http://www.phdcomics.com/comics/archive/phd032515s.gif" width="550" align = "right">
 
 * **Apostila da UFSCAR** é a tradução da apostila que foi utilizada na disciplina de Verão de Probabilidade (que é o nivelamento para o mestrado em estatística da UFSCAR/USP em 2016). Tem bastante coisa legal que não vimos na aula.
 * **Integrais impróprias** é uma lista de exercícios sobre esse assunto.
