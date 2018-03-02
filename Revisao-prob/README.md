@@ -5,6 +5,9 @@
 
 ## Avisos
 01/03
+* Acrescentei nas notas de aula algumas coisas sobre verossimilhança
+* Arrumei o final das notas de aula, porque amostra aleatória estava perdido ali no meio das coisas de probabilidade
+* Corrigi a densidade da Normal que estava com um 2 faltando em um teorema da Normal
 * Corrigi alguns erros de digitação nas notas de aula até o segundo encontro
 * Adicionei o conteúdo até a aula 3 (está faltando a parte da normal multivariada e multinomial)
 * Adicionei nos extras uma apostila da disciplina de Probabilidade da UFSCAR/ICMC USP
