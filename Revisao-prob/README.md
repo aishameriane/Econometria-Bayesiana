@@ -5,7 +5,9 @@
 
 ## Avisos
 02/03
+* Acrescentei o final da matéria nas notas de aula. Se houver alguma modificação vai ser para corrigir erros (os exemplos que estão como "visto em aula" serão vistos... na aula)
 * Arrumei alguns erros de digitação nos slides da parte 1 da aula 1 e da aula 3
+* Adicionei na pasta de extras os slides da apresentação que farei se sobrar tempo
 
 01/03
 * Acrescentei nas notas de aula algumas coisas sobre verossimilhança
