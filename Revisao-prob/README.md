@@ -4,6 +4,9 @@
 
 
 ## Avisos
+02/03
+* Arrumei alguns erros de digitação nos slides da parte 1 da aula 1 e da aula 3
+
 01/03
 * Acrescentei nas notas de aula algumas coisas sobre verossimilhança
 * Arrumei o final das notas de aula, porque amostra aleatória estava perdido ali no meio das coisas de probabilidade
