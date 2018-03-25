@@ -6,14 +6,16 @@ Diretório com os códigos das figuras das notas de aula. Utilize [este site](ht
 
 ## Histórico de alterações:
 
-* 25/03 - Adicionado o código que gera a figura 23 (capítulo 4).
+* 25/03 - Adicionado o código que gera a figura 23 (capítulo 4) e os primeiros exemplos de integração de Monte Carlo.
 * 11/03 - Adicionei o código para a aplicação do capítulo 3 do Koop (em R).
 
 ## Descrição dos arquivos:
 
+Clique nos links para visualizar o arquivo html.
+
 * [Cap 2 - Fig_13, 14 e 15.html](https://htmlpreview.github.io/?https://github.com/aishameriane/Econometria-Bayesiana/blob/master/Notas-de-aula/Cap_2_-_Fig_13%2C_14_e_15.html) - Faz o gráfico das densidades Beta e os triplots.
 * [Cap 3 - Koop.html](https://htmlpreview.github.io/?https://github.com/aishameriane/Econometria-Bayesiana/blob/master/Notas-de-aula/Cap_3_Koop.html) - Implementação da parte aplicada do capítulo 3 do Koop.
 * [Cap 4 - Figura 23.html](https://htmlpreview.github.io/?https://github.com/aishameriane/Econometria-Bayesiana/blob/master/Notas-de-aula/Cap_4_-_Figura_23.html) - Gera o gráfico que compara uma distribuição beta com duas distribuições uniformes.
-
+* [Cap 4 - Integração de MC exemplos.html](https://htmlpreview.github.io/?https://github.com/aishameriane/Econometria-Bayesiana/blob/master/Notas-de-aula/Cap%204%20-%20Integra%C3%A7%C3%A3o%20de%20MC%20exemplos.html) - Contém os exemplos do capítulo 4.
 
 _Tirinha do [SMBC](https://www.smbc-comics.com/index.php?id=3366)_.
