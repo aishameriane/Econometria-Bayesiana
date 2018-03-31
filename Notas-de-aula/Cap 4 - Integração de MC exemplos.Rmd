@@ -654,3 +654,89 @@ Uma vez que $Var[h(Y_j)] =\mathbb{E}[h^2(Y_j)] -\mathbb{E}[h(Y_j)]^2$, teremos q
 \end{align*}
 
 Então, $Var[h(Y_j)] =\mathbb{E}[h^2(Y_j)] -\mathbb{E}[h(Y_j)]^2=$ `r (round((4*(2+5*atan(1/2)))/(5*pi^2),4) - round(((4/pi)*atan(1/2))^2,4))/16` $/m$.
+
+## Exemplo 4 - Distribuição t
+
+Suponha que queremos amostrar $\theta \sim t(\nu, 0, 1)$ para calcular:
+
+ \begin{equation*}
+ \int_{2.1}^\infty \theta^5 p(\theta|y)d\theta
+ \end{equation*}
+
+ onde
+
+ \begin{equation*}
+ p(\theta|y) = \frac{\Gamma\left(\frac{\nu + 1}{2}\right)}{\sqrt{\nu \pi}\Gamma\left(\frac{\nu}{2}\right)}\left(1+\frac{\theta^2}{\nu} \right)^{-\frac{\nu+1}{2}}
+ \end{equation*}
+
+ Vamos comparar diferentes amostradores por importância:
+
+1. Cauchy: $\mathcal{C}(0,1)$;
+2. Normal: $\mathcal{N}(0,1)$;
+3. Uniforme: $\mathcal{U}(0, 1/2.1)$.
+
+```{r}
+set.seed(1234)
+
+# Parâmetros
+Esse <- 1000000  # Tamanho da amostra de MC
+den  <- 1:Esse   # Vetor de 1 a S auxiliar
+cut  <- 2.1      # Limite de integração
+df   <- 12       # Graus de liberdade
+
+############ Usando a densidade original ####################
+t  <- rt(n = Esse, df = df)  # Amostra S valores da distibuição t
+tt <- mean((t^5)*(t>cut))    # Estimativa
+tp <- cumsum((t^5)*(t>cut))/den  # Evolução da estimativa à medida que S cresce
+
+
+############ Usando a densidade normal ####################
+z   <- rnorm(n = Esse, mean = 0, sd = 1) # Amostra S valores da normal padrão
+fz  <- (z^5)*(dt(x = z, df = df)/dnorm(z))*(z>cut) # Avalia a função nas realizações
+zz  <- mean(fz) # Estimativa de MC
+zp  <- cumsum(fz)/den # Evolução da estimativa à medida que S cresce
+
+
+############ Usando a densidade Cauchy ####################
+c   <- rcauchy(n = Esse, location = 0, scale = 1) # Poderia ter usado a t com 1 gl também
+fc  <- (c^5)*(dt(x=c, df = df)/dcauchy(c, location = 0, scale = 1))*(c>cut) # Avalia a função nas realizações
+cc  <- mean(fc) # Estimativa de MC
+cp  <- cumsum(fc)/den # Evolução da estimativa à medida que S cresce
+
+
+############ Usando a densidade Cauchy porém com uma densidade t com 1 gl ####################
+c1   <- rt(n = Esse, df = 1) # Cauchy é uma t com 1 gl também
+fc1  <- (c1^5)*(dt(x=c1, df = df)/dt(c1, df= 1))*(c1>cut)
+cc1  <- mean(fc1)
+cp1  <- cumsum(fc1)/den
+
+
+############ Usando a densidade uniforme ####################
+u    <- (1/cut)*runif(n = Esse) # Amostrar da uniforme (0, 1/2.1) é igual a amostrar da uniforme padrão e dividir por 2.1
+u7   <- u^(-7)
+tu   <- dt(1/u, df = df)
+fu   <- u7*tu                   # Avalia a função nas realizações
+uu   <- mean(fu)                # Estimativa de MC
+up   <- cumsum(fu)/(cut*den)    # Evolução da estimativa à medida que S cresce
+
+
+### Plota os gráficos
+data_frame <- data.frame(den/10^5, tp, zp, cp, cp1, up)
+names(data_frame) <- c("Densidade", "t", "Normal", "Cauchy1", "Cauchy2", "Uniforme")
+df2 <- melt(data = data_frame, id.vars = "Densidade")
+
+p <- ggplot(df2, aes(Densidade, value, colour = variable)) +
+  geom_line(alpha = 1, aes(linetype = variable))+
+  labs(title="", y = "Estimativa", x= "Iterações (x 10^5)", color = "Densidade")+
+  scale_colour_brewer(palette = "Set1") +
+  theme_bw()
+
+p <- p + labs(linetype = "Densidade") 
+p <- p + labs(colour='Densidade')
+p <- p + theme(legend.position="top", legend.key.size = unit(.5, "cm"), axis.text.x = element_text(angle=25, hjust = 1, size = 7), axis.title.y = element_text(size = 7), axis.title.x = element_text(size = 7))
+
+
+#pdf(file="C:\\Users\\Aishameriane\\OneDrive\\Documentos\\Mestrado Economia\\Bayesiana - 2018-01\\Notas de Aula 2018\\Imagens notas de aula\\Cap 4\\Fig-4.006.pdf", width = 10, height = 4)
+p
+#dev.off()
+```
