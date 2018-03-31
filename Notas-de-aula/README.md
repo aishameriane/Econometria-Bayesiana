@@ -6,6 +6,7 @@ Diretório com os códigos das figuras das notas de aula. Utilize [este site](ht
 
 ## Histórico de alterações:
 
+* 30/03 - Finalizado o arquivo referentes aos exemplos de integração de Monte Carlo.
 * 25/03 - Adicionado o código que gera a figura 23 (capítulo 4) e os primeiros exemplos de integração de Monte Carlo.
 * 11/03 - Adicionei o código para a aplicação do capítulo 3 do Koop (em R).
 
