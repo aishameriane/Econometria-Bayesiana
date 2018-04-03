@@ -22,3 +22,7 @@ Monitora: Aishameriane Schmidt.
 
 _Tirinha do [SMBC](https://smbc-comics.com/index.php?id=4127)_.
 
+_"Lasciate ogne speranza, voi ch'intrate"_ 
+
+[Dante's Inferno](https://www.phrases.org.uk/meanings/abandon-hope-all-ye-who-enter-here.html)
+<img src="https://github.com/aishameriane/Econometria-Bayesiana/blob/master/bayesiana.jpeg" width="300" align = "left">
