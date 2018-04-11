@@ -10,6 +10,6 @@ Diretório para outros arquivos (como exemplos extras).
 
 # Descrição dos arquivos
 
-* [Amostrador de Gibbs]() - Exemplo de amostradores de Gibbs (que não estão nas notas de aula).
+* [Amostrador de Gibbs](https://htmlpreview.github.io/?https://github.com/aishameriane/Econometria-Bayesiana/blob/master/outros/Amostrador%20de%20Gibbs.html) - Exemplo de amostradores de Gibbs (que não estão nas notas de aula).
 
 _Tirinha do [xkcd](https://xkcd.com/1236/). [Entenda a piada](https://www.explainxkcd.com/wiki/index.php/1236:_Seashell)._
